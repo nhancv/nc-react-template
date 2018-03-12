@@ -11,7 +11,7 @@
     }
   },
   "typescript.tsdk": "./node_modules/typescript/lib",
-  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": false,
   "typescript.implementationsCodeLens.enabled": true,
   "prettier.semi": false,
   "prettier.singleQuote": true
