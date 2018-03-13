@@ -1,7 +1,6 @@
 import * as React from 'react'
 import './App.css'
-
-// const logo = require('./profile.jpg')
+import Particles from 'react-particles-js'
 
 class App extends React.Component {
   render() {
@@ -14,6 +13,7 @@ class App extends React.Component {
             <h2 className="App-subtitle">Mobile Developer</h2>
             <h2 className="App-subtitle">nhancv92@gmail.com</h2>
           </div>
+          <Particles />
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
