@@ -1,3 +1,5 @@
+Nodejs: 14.15.1
+
 # New ts project 
 # https://create-react-app.dev/docs/adding-typescript
 ```
