@@ -1,14 +1,14 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.scss'
+import React from 'react';
+import logo from './logo.svg';
+import './App.scss';
 
-type AppProps = {}
-type AppState = {}
+type AppProps = {};
+type AppState = {};
 
 class App extends React.Component<AppProps, AppState> {
   constructor(props: AppProps) {
-    super(props)
-    this.state = { }
+    super(props);
+    this.state = {};
   }
 
   render() {
@@ -24,8 +24,8 @@ class App extends React.Component<AppProps, AppState> {
           </a>
         </header>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
