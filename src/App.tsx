@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import ReactGA from "react-ga4";
 
 type AppProps = {};
 type AppState = {};
@@ -9,6 +10,15 @@ class App extends React.Component<AppProps, AppState> {
   constructor(props: AppProps) {
     super(props);
     this.state = {};
+  }
+
+  componentDidMount() {
+    ReactGA.send({ hitType: "pageview", page: "/", title: "Home" });
+    // Send a custom event
+    ReactGA.event({
+      action: "payment_type",
+      category: "Type 1",
+    });
   }
 
   render() {
