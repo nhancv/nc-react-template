@@ -4,8 +4,8 @@ import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import ReactGA from "react-ga4";
-ReactGA.initialize(process.env.REACT_APP_GA4_MEASUREMENT_ID || "");
+import ReactGA from 'react-ga4';
+ReactGA.initialize(process.env.REACT_APP_GA4_MEASUREMENT_ID || '');
 
 ReactDOM.render(
   <React.StrictMode>
